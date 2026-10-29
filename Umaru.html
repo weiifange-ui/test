@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>うまる</title>
+</head>
+<style>
+    td.image {
+        width: 65%;
+    }
+
+    td.txt {
+        width: 25%;
+    }
+
+
+
+    img {
+        opacity: 1;
+        transition: opacity 0.3s;
+        /* 當圖片的透明度改變時，花 0.3 秒平滑地完成變化。 */
+        /* 滑鼠移到圖片上，圖片會在 0.3 秒內逐漸變淡；滑鼠移開後，也會在 0.3 秒內恢復正常。 */
+    }
+
+    img:hover {
+        /* 當滑鼠游標停留在圖片上時，套用大括號裡的 CSS 設定 */
+        opacity: 0.5;
+    }
+</style>
+
+<body>
+    <table>
+        <tr>
+            <td></td>
+            <td class="image"><img src="https://p5.itc.cn/images01/20210111/95e00209773240878fc8f27cda71a929.jpeg"
+                    alt="回上層" onclick="history.back()" style="cursor: pointer;"></td>
+        </tr>
+    </table>
+
+
+    <table>
+        <tr>
+            <td class="txt"><a href="./index.html">うまる</a></td>
+        </tr>
+        <td></td>
+    </table>
+
+
+    <table>
+        <tr>
+            <td></td>
+            <td class="image" style="text-align: right;">
+                <img src="
+                https://www.ign.com.cn/sm/ign_cn/screenshot/default/timg-1_cssd.jpg" alt="回上層" onclick="history.back()"
+                    style="cursor: pointer;">
+            </td>
+        </tr>
+
+    </table>
+
+
+</body>
+
+</html>

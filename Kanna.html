@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>カンナ</title>
+</head>
+<style>
+    td.image {
+        width: 65%;
+    }
+
+    td.txt {
+        width: 25%;
+    }
+
+
+
+    img {
+        opacity: 1;
+        transition: opacity 0.3s;
+        /* 當圖片的透明度改變時，花 0.3 秒平滑地完成變化。 */
+        /* 滑鼠移到圖片上，圖片會在 0.3 秒內逐漸變淡；滑鼠移開後，也會在 0.3 秒內恢復正常。 */
+    }
+
+    img:hover {
+        /* 當滑鼠游標停留在圖片上時，套用大括號裡的 CSS 設定 */
+        opacity: 0.5;
+    }
+</style>
+
+<body>
+    <table>
+        <tr>
+            <td class="image"><img src="https://images6.alphacoders.com/810/810685.jpg" alt="回上層"
+                    onclick="history.back()" style="cursor: pointer;"></td>
+            <td></td>
+        </tr>
+    </table>
+
+
+    <table>
+        <td class="txt"><a href="./index.html">カンナ</a></td>
+        <td></td>
+
+    </table>
+
+
+    <table>
+        <td></td>
+        <td class="image"><img src="https://images6.alphacoders.com/135/1359490.png" alt="回上層" onclick="history.back()"
+                style="cursor: pointer;"></td>
+    </table>
+
+
+
+
+
+
+
+</body>
+
+</html>

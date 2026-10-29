@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>やよい</title>
+</head>
+<style>
+    table {
+        width: 80%;
+        /* background-color: rgb(196, 157, 164); */
+        /* text-align: center; */
+        margin: auto;
+    }
+
+
+    tr,
+    td {
+        /* border: 5px solid black; */
+        border-radius: 20px;
+        vertical-align: middle;
+        text-align: center;
+    }
+
+
+
+    td.image {
+        width: 75%;
+    }
+
+    td.txt {
+        width: 25%;
+    }
+
+    td img {
+        width: 100%;
+
+        /* opacity: 0.6; 圖片透明度 */
+    }
+
+
+    img {
+        opacity: 1;
+        transition: opacity 0.3s;
+        /* 當圖片的透明度改變時，花 0.3 秒平滑地完成變化。 */
+        /* 滑鼠移到圖片上，圖片會在 0.3 秒內逐漸變淡；滑鼠移開後，也會在 0.3 秒內恢復正常。 */
+    }
+
+    img:hover {
+        /* 當滑鼠游標停留在圖片上時，套用大括號裡的 CSS 設定 */
+        opacity: 0.5;
+    }
+</style>
+
+<body>
+    <table>
+        <tr>
+            <td class="image"><img src="https://truth.bahamut.com.tw/s01/202312/8c2295d62aee95ad3c603f9b165c7958.JPG"
+                    alt="回上層" onclick="history.back()" style="cursor: pointer;"></td>
+            <td></td>
+        </tr>
+    </table>
+    <table>
+
+
+        <tr>
+            <td class="txt"><a href="./index.html">やよい</a></td>
+        </tr>
+
+    </table>
+    <table>
+
+
+        <tr>
+            <td></td>
+            <td class="image"><img
+                    src="https://eeo.today/media/wp-content/uploads/2023/09/DG_KV4_%E3%83%80%E3%83%BC%E3%82%AF%E3%82%AE%E3%83%A3%E3%82%B6%E3%83%AA%E3%83%B3%E3%82%B0-1470x2048.jpg"
+                    alt="回上層" onclick="history.back()" style="cursor: pointer;"></td>
+        </tr>
+
+    </table>
+
+</body>
+
+</html>

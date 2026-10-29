@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>カヤ</title>
+</head>
+<style>
+    img {
+        width: 100%;
+        height: auto;
+    }
+    
+
+    img {
+        opacity: 1;
+        transition: opacity 0.3s;
+        /* 當圖片的透明度改變時，花 0.3 秒平滑地完成變化。 */
+        /* 滑鼠移到圖片上，圖片會在 0.3 秒內逐漸變淡；滑鼠移開後，也會在 0.3 秒內恢復正常。 */
+    }
+
+    img:hover {
+        /* 當滑鼠游標停留在圖片上時，套用大括號裡的 CSS 設定 */
+        opacity: 0.5;
+    }
+</style>
+
+<body>
+    <p>
+
+        <img src="https://image.tmdb.org/t/p/original/4JEOInjrF7N2beevyvuB1SGMzGL.jpg" alt="回上層"
+            onclick="history.back()" style="cursor: pointer;">
+        <a href="./index.html">カヤ</a>
+
+
+        <img src="https://www.manga2you.de/media/2026/10/Kaya-chan-hat-keine-Angst.jpg" alt="回上層"
+            onclick="history.back()" style="cursor: pointer;">
+
+
+    </p>
+
+
+</body>
+
+</html>

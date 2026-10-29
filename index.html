@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>animate</title>
+    <style>
+        /* 當使用 padding 不要讓變大 */
+        /* 
+        * {
+        box-sizing: border-box;
+        } */
+
+        /* .box {           
+         width: 300px;           
+          height: 300px;           
+           background-color: rgba(65, 196, 196, 0.5);           
+            text-align: center;        
+            } */
+
+        table {
+            width: 80%;
+            /* background-color: rgb(196, 157, 164); */
+            /* text-align: center; */
+            margin: auto;
+
+
+            tr,
+            td {
+                /* border: 5px solid black; */
+                border-radius: 20px;
+                vertical-align: middle;
+                text-align: center;
+            }
+
+
+
+            table {
+                width: 100%;
+                table-layout: fixed;
+            }
+
+            td {
+                vertical-align: middle;
+            }
+
+            td.image {
+                width: 75%;
+            }
+
+            td.txt {
+                width: 25%;
+            }
+
+            td img {
+                width: 100%;
+
+                /* opacity: 0.6; 圖片透明度 */
+            }
+
+
+
+
+            img {
+                opacity: 1;
+                transition: opacity 0.3s;
+                /* 當圖片的透明度改變時，花 0.3 秒平滑地完成變化。 */
+                /* 滑鼠移到圖片上，圖片會在 0.3 秒內逐漸變淡；滑鼠移開後，也會在 0.3 秒內恢復正常。 */
+            }
+
+            img:hover {
+                /* 當滑鼠游標停留在圖片上時，套用大括號裡的 CSS 設定 */
+                opacity: 0.5;
+            }
+
+
+
+
+        }
+    </style>
+</head>
+
+<body>
+    <table>
+        <tr>
+            <td class="image">
+                <a href="https://www.youtube.com/watch?v=Uj_zlIr3sGM&list=PLC18xlbCdwtQc-YXAzeeqrwWJxte_DPMP">
+                    <img
+                        src="https://img.4gamers.com.tw/puku-clone-version/2350f4c4de171b9f1ec420395a498ab620b4c539.jpeg">
+                </a>
+            </td>
+
+            <td class="txt">
+                <!-- 相對路徑 -->
+                <!-- ./同一層 -->
+                <!-- ../上一層 -->
+                <!-- ../../上一層 -->
+                <a href="./Umaru.html">
+                    <h1>我家有個魚乾妹</h1>
+                </a>
+
+
+                <p>點選圖片連結到YT</p>
+
+                <a href="https://zh.wikipedia.org/zh-tw/%E5%B9%B2%E7%89%A9%E5%A6%B9%EF%BC%81%E5%B0%8F%E5%9F%8B">
+                    <p>wiki</p>
+                </a>
+
+
+
+
+
+
+            </td>
+        </tr>
+    </table>
+    <table>
+
+        <tr>
+            <td class="txt">
+                <!-- 相對路徑 -->
+                <!-- ./同一層 -->
+                <!-- ../上一層 -->
+                <!-- ../../上一層 -->
+                <a href="./Kanna.html">
+                    <h1>小林家的龍女僕</h1>
+                </a>
+
+
+                <p>點選圖片連結到YT</p>
+
+                <a
+                    href="https://zh.wikipedia.org/zh-tw/%E5%B0%8F%E6%9E%97%E5%AE%B6%E7%9A%84%E9%BE%8D%E5%A5%B3%E5%83%95">
+                    <p>wiki</p>
+                </a>
+
+            </td>
+            <td class="image">
+                <a href="https://www.youtube.com/watch?v=v6eYDAl9PMo"><img
+                        src="https://livedoor.4.blogimg.jp/anico_bin/imgs/b/b/bbf2d3e4.jpg"></a>
+
+            </td>
+        </tr>
+    </table>
+
+    <table>
+        <tr>
+            <td class="image">
+                <a href="https://www.youtube.com/watch?v=H0j1Q6pJVyg"><img
+                        src="https://img.4gamers.com.tw/puku-clone-version/fcac6cb610c4e3688bad137d48ab03bd58e108d6.jpg"></a>
+
+            </td>
+            <td class="txt">
+
+                <!-- 相對路徑 -->
+                <!-- ./同一層 -->
+                <!-- ../上一層 -->
+                <!-- ../../上一層 -->
+                <a href="./Kaya.html">
+                    <h1>神八小妹不可怕</h1>
+                </a>
+
+                <p>點選圖片連結到YT</p>
+
+                <a
+                    href="https://zh.wikipedia.org/zh-tw/%E7%A5%9E%E5%85%AB%E5%B0%8F%E5%A6%B9%E4%B8%8D%E5%8F%AF%E6%80%95">
+                    <p>wiki</p>
+                </a>
+            </td>
+        </tr>
+    </table>
+
+    <table>
+        <tr>
+            <td class="txt">
+
+                <!-- 相對路徑 -->
+                <!-- ./同一層 -->
+                <!-- ../上一層 -->
+                <!-- ../../上一層 -->
+                <a href="./Yayoi.html">
+                    <h1>黑暗集會</h1>
+                </a>
+
+                <p>點選圖片連結到YT</p>
+
+                <a href="https://zh.wikipedia.org/zh-tw/%E9%BB%91%E6%9A%97%E9%9B%86%E6%9C%83">
+                    <p>wiki</p>
+                </a>
+            </td>
+            <td class="image">
+                <a href="https://www.youtube.com/watch?v=1zM_1f4L80M"><img
+                        src="https://truth.bahamut.com.tw/s01/202510/forum/72965/4043f60d071ed976faa39ac2630c84b5.JPG"></a>
+
+            </td>
+
+        </tr>
+    </table>
+
+
+
+</body>
+
+</html>
